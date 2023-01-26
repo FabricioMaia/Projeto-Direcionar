@@ -1,0 +1,636 @@
+/* Estilo cabeçalho */
+header {
+    background-color: white;
+    box-shadow: 0px 2px 4px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin: 0;
+    height: 10vh;
+}
+
+#menu {
+    display: none;
+}
+
+.navbar {
+    display: none;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    width: 130px;
+    left: auto;
+    right: 0;
+    box-shadow: 0px 2px 4px black;
+}
+
+.navbar_ativa {
+    display: block;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    width: 130px;
+    left: auto;
+    right: 0;
+    box-shadow: 0px 2px 4px black;
+}
+
+.navbar_none {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    text-decoration:underline;
+    font-size:x-large;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+nav li {
+    padding-bottom: 5px;
+}
+
+nav li:hover {
+    background-color: #ff6f00;
+}
+
+.botaonav {
+    color: black;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    margin: 0px 0px 0px 70px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo h1 {
+    margin: 0px 0px 0px 8px;
+    font-family: 'Trebuchet MS';
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    max-height: max-content;
+    margin: 0 auto;
+
+}
+
+#content {
+    margin: auto;
+    min-height:88vh;
+    display: block;
+} 
+
+body {
+    background: linear-gradient(90deg, rgba(255, 111, 0, 1) 25%, rgba(255, 166, 98, 1) 75%);
+    margin: 0px;
+}
+
+.titulos {
+    padding-bottom: 60px;
+}
+
+.titulo1 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 60px 0px 0px 120px;
+    text-shadow: -5px 5px 10px black;
+}
+
+.titulo2 {
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+    margin: 20px 0px 30px 120px;
+    color: black;
+}
+
+/* Botões cabeçalho */
+.botao {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    color: black;
+    background-color: #ff6f00;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: tahoma;
+    padding: 8px;
+    margin: 0px 0px 0px 10px;
+}
+
+.botao:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    color: white;
+    background-color: #ff6f00;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+/*  botão iniciar teste*/
+
+.botao2 {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1.5px;
+    padding: 9px 20px;
+    margin: 30px 0px 0px 122px;
+}
+
+.botao2:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    color: #ff6f00;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+/* link */
+a:link {
+    text-decoration: none;
+}
+
+/* Noticias */
+#artigos {
+    padding: 5px 0px 50px 0px;
+    background-color: white;
+    box-shadow: 0px -2px 4px black;
+}
+
+main h3 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+main h4 {
+    color: black;
+    font-size: 22px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Artigos */
+article p {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 20px;
+    font-family: 'calibri';
+    background-color: white;
+    box-shadow: 4px 5px 5px #ff6f00;
+    border: solid 1px orange;
+    border-radius: 15px;
+}
+
+/* rodapé */
+.footer-index {
+    justify-content: baseline;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 2vh;
+    background-color: white;
+    box-shadow: 0px -2px 4px black;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* ------------ Reponsividade index ------------*/
+@media (max-width: 780px) {
+
+    .titulo1 {
+        font-size: 55px;
+        margin: 0;
+        padding: 60px 0px 0px 70px;
+    }
+
+    .titulo2 {
+
+        font-size: 22px;
+        margin: 20px 0px 30px 70px;
+    }
+
+    main h3 {
+        font-size: 22px;
+    }
+
+    .botao2 {
+        font-size: 20px;
+        margin: 30px 0px 0px 70px;
+    }
+}
+
+/*------------------sobre---------------------*/
+
+.mainsobre {
+    padding: 0;
+}
+
+.sobre {
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 40px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.sobre h1 {
+    display: flex;
+    font-family: 'Trebuchet MS';
+}
+
+.sobre p {
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Trebuchet MS';
+}
+
+@media (max-width: 450px) {
+    .sobre {
+        margin-top: 70px;
+        width: 75%;
+        padding: 20px;
+    }
+}
+
+/* ------------ Reponsividade index & Header ------------*/
+@media (max-width: 620px) {
+
+    /* #menu {
+        display: none;
+        color: #ff6f00;
+        cursor: pointer;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: block;
+        margin-right: 25px;
+    } */
+
+    header {
+        padding: 2px;
+    }
+
+    .logo {
+        margin: auto 0px auto 15px;
+        display: flex;
+    }
+
+    .logo h1 {
+        font-size: 23px;
+        margin: auto 0px auto 6px;
+    }
+
+    img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .titulo1 {
+        font-size: 42px;
+        padding: 50px 0px 0px 30px;
+    }
+
+    .titulo2 {
+        font-size: 20px;
+        margin: 20px 0px 30px 30px;
+    }
+
+    /* Botões cabeçalho */
+    .botao {
+        font-size: 11px;
+        padding: 6px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .botao2 {
+        font-size: 15px;
+        padding: 8px 16px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    main h3 {
+        font-size: 16px;
+    }
+
+    main h4 {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+}
+
+/*------------------ Teste Vocacional ------------ */
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS';
+    padding: 20px 20px 0px 20px;
+    width: 85%;
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.perguntas {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 20px;
+    font-family: 'calibri';
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.perguntas p {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 110%;
+}
+
+.perguntas h4 {
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+#iniciarteste {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 20px;
+    font-family: 'calibri';
+    border-radius: 15px;
+}
+
+#pergunta-1,
+#pergunta-2,
+#pergunta-3,
+#pergunta-4,
+#pergunta-5,
+#pergunta-6,
+#pergunta-7,
+#pergunta-8,
+#pergunta-9,
+#pergunta-10,
+#pergunta-11,
+#pergunta-12,
+#pergunta-13,
+#pergunta-14 {
+    margin-top: 10px;
+    width: 85%;
+    padding: 20px;
+    font-family: 'calibri';
+    border-radius: 15px;
+    display: none;
+}
+
+
+
+.buttons {
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.iniciarteste {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.questaoanterior {
+    margin-bottom: 15px;
+    padding: 0.5em 1em;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.questaoanterior:hover {
+    background-color: #ff6f00;
+    transform: translateY(-3px);
+}
+
+.proximaquestao {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.proximaquestao:hover {
+    background-color: #ff6f00;
+    transform: translateY(-3px);
+}
+
+.enviarteste {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.enviarteste:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    background-color: #ff6f00;
+    box-shadow: 0px 15px 20px #ff9442;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.enviarteste:active {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transform: translateY(-1px);
+}
+
+/* Respostas */
+
+#resposta1,
+#resposta2,
+#resposta3,
+#resposta4,
+#resposta5,
+#resposta6 {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 85%;
+    padding: 25px;
+    font-family: 'calibri';
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+    display: none;
+}
+
+#resposta1 h3,
+#resposta2 h3,
+#resposta3 h3,
+#resposta4 h3,
+#resposta5 h3,
+#resposta6 h3 {
+    font-size: 150%;
+}
+
+#resposta1 p,
+#resposta2 p,
+#resposta3 p,
+#resposta4 p,
+#resposta5 p,
+#resposta6 p {
+    margin-top: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 120%;
+}
+
+@media (max-width: 430px) {
+
+    .titulo {
+        margin-top: 30px;
+        width: 80%;
+        font-size: 95%;
+    }
+
+    .perguntas {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+    }
+
+    .perguntas h4 {
+        font-size: 110%;
+        margin-bottom: 10px;
+    }
+
+    #resposta1,
+    #resposta2,
+    #resposta3,
+    #resposta4,
+    #resposta5,
+    #resposta6 {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+        display: none;
+    }
+
+    #resposta1 h3,
+    #resposta2 h3,
+    #resposta3 h3,
+    #resposta4 h3,
+    #resposta5 h3,
+    #resposta6 h3 {
+        font-size: 140%;
+    }
+
+    #resposta1 p,
+    #resposta2 p,
+    #resposta3 p,
+    #resposta4 p,
+    #resposta5 p,
+    #resposta6 p {
+        margin-top: 10px;
+        font-size: 110%;
+    }
+
+    #iniciarteste,
+    #pergunta-1,
+    #pergunta-2,
+    #pergunta-3,
+    #pergunta-4,
+    #pergunta-5,
+    #pergunta-6,
+    #pergunta-7,
+    #pergunta-8,
+    #pergunta-9,
+    #pergunta-10,
+    #pergunta-11,
+    #pergunta-12,
+    #pergunta-13,
+    #pergunta-14 {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .proximaquestao {
+        margin-top: 10px;
+    }
+}
